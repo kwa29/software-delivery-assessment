@@ -64,14 +64,14 @@ Every team writing code, scripts, and/or configuration for application software 
   - Teams **configuring and testing COTS products** as part of the software & infrastructure estate
   - Any other teams with a primary focus on **building, configuring, and testing software and infrastructure**
 
-By "team", we mean 6-10 person group that works together closely, usually called a *Squad*, *Scrum team*, *Product team*, or *Stream-aligned team*. 
+By "team", we mean 6-10 person group that works together closely, usually called a *Squad*, *Scrum team*, *Product team*, or *Stream-aligned team*. 
 
 ## Assessment criteria
 
 The criteria for each dimension are taken from existing published books and online sources: 
 
 * **Team Health** - based on the criteria from [_Spotify Squad Health Check_](https://labs.spotify.com/2014/09/16/squad-health-check-model/) with some additions
-* **Deployment** - based on key questions from the book [_DevOps for the Modern Enterprise_](https://itrevolution.com/book/devops_modern_enterprise/) by Mirco Hering as discussed on Mirco's blog post [Mirco’s self assessment questions of DevOps Maturity](https://notafactoryanymore.com/2018/03/01/mircos-self-assessment-questions-of-devops-maturity/)
+* **Deployment** - based on key questions from the book [_DevOps for the Modern Enterprise_](https://itrevolution.com/book/devops_modern_enterprise/) by Mirco Hering as discussed on Mirco's blog post [Mirco's self assessment questions of DevOps Maturity](https://notafactoryanymore.com/2018/03/01/mircos-self-assessment-questions-of-devops-maturity/)
 * **Flow** - based on criteria from the book [_Accelerate_](https://itrevolution.com/book/accelerate/) by Nicole Forsgren, Jez Humble, and Gene Kim, plus some details from [_The Principles of Product Development Flow_](https://www.amazon.com/Principles-Product-Development-Flow-Generation/dp/1935401009) by Don Reinertsen
 * **Continuous Delivery** - based on selected criteria the book [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble and Dave Farley and the summary of the book at [CDchecklist.info](http://CDchecklist.info/)
 * **Operability** - based on selected criteria from the book [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, and Rob thatcher, together with some questions from [OperabilityQuestions.com](http://OperabilityQuestions.com/)
@@ -91,8 +91,8 @@ Many organisations find that running team assessments **every 3 months** provide
 
 ### Preparation
 
-1.  Find someone to Facilitate the assessment. This should be someone from outside the team, who is familiar with running team retrospectives.  
-2.  Book a time slot for 2 or 3 hours: for online sessions you could split this over 2 or more video call sessions, and for in-person sessions book a room large enough for the team.
+1.  Find someone to Facilitate the assessment. This should be someone from outside the team, who is familiar with running team retrospectives.  
+2.  Book a time slot for 2 or 3 hours: for online sessions you could split this over 2 or more video call sessions, and for in-person sessions book a room large enough for the team.
 3.  For **online sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton) and screenshot or note down the results in a spreadhseet, or use an online poll tool to capture responses from people in the session. For **in-person sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton), or print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](https://github.com/ConfluxDigital/software-delivery-assessment/releases), or the individual assessment pages at A1 size if possible (use small margins):
 	* [Team Health - assessment sheet](print/print-team-health.md)
 	* [Deployment - assessment sheet](print/print-deployment.md)
@@ -102,7 +102,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	* [Testing and Testability - assessment sheet](print/print-testability.md)
 	* [Reliability and SRE - assessment sheet](print/print-reliability.md)
 	* [On-call - assessment sheet](print/print-on-call.md)
-4.  For **online sessions**, show the _Tired_ and _Inspired_ criteria on the screen alongide the question. For **in-person sessions**, either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
+4.  For **online sessions**, show the _Tired_ and _Inspired_ criteria on the screen alongide the question. For **in-person sessions**, either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
 	1. [Team Health](team-health.md)
 	2. [Deployment](deployment.md)
 	3. [Flow](flow.md)
@@ -112,7 +112,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	7. [Reliability and SRE](reliability.md)
 	8. [On-call](on-call.md)
 5.  It is valuable to capture details and nuances of the discussions around each question. For **online sessions**, have someone take notes in a document or shared whiteboard. For **in-person sessions**, bring lots of marker pens or whiteboard markers: red, blue, and green are best. 
-6.  Include **someone who is familiar with facilitating retrospectives** (possibly a scrum master) in the session. They will be shadowing the facilitator during the session so the person from your team can facilitate other assessment sessions later.
+6.  Include **someone who is familiar with facilitating retrospectives** (possibly a scrum master) in the session. They will be shadowing the facilitator during the session so the person from your team can facilitate other assessment sessions later.
 
 Make sure that the Facilitator understands the purpose of the session and is familiar with the assessment pages and questions.
 
@@ -130,40 +130,40 @@ Make sure that the Facilitator understands the purpose of the session and is fam
 
 ### Timings
 
-Each team assessment runs for 2-3 hours, and the facilitator will run the team through 8 sets of questions:
+Each team assessment runs for 2-3 hours, and the facilitator will run the team through 8 sets of questions:
 
-1.  Team health check - **35 mins**
-2.  Deployment health check - **10 mins**
-3.  Flow check - **10 mins**
-4.  Continuous Delivery check - **20 mins**
-5.  Operability check - **20 mins**
-6.  Test coverage check - **20 mins**
+1.  Team health check - **35 mins**
+2.  Deployment health check - **10 mins**
+3.  Flow check - **10 mins**
+4.  Continuous Delivery check - **20 mins**
+5.  Operability check - **20 mins**
+6.  Test coverage check - **20 mins**
 7.  Reliability and SRE - **30 mins**
 8.  On-call - **15 mins**
 
-These timings leave space for a **10 minute break** during the assessment.
+These timings leave space for a **10 minute break** during the assessment.
 
 ### Running the Assessment session
 
 Each section has several questions. Each question should be answered as follows:
 
-  - The team (either as individuals or as a team) rate each of the criteria using SAD (1 OR 2) / MEH (3) / YAY (4 OR 5) based on the ***Tired* and *Inspired*** guidelines
+  - The team (either as individuals or as a team) rate each of the criteria using SAD (1 OR 2) / MEH (3) / YAY (4 OR 5) based on the ***Tired* and *Inspired*** guidelines
     
-      - *Tired* aligns to a low rating (1), and *Inspired* aligns to a high rating (5)
+      - *Tired* aligns to a low rating (1), and *Inspired* aligns to a high rating (5)
     
       - If you used individual ratings, tally the ratings and/or decide on a single team score from 1 to 5. You may find it useful to use different coloured pens on the printed sheet to indicate visually the different ratings.
 
-  - The **Trend** since the previous time is identified (going up, staying roughly the same, going down), if applicable
+  - The **Trend** since the previous time is identified (going up, staying roughly the same, going down), if applicable
 
-  - An **Action** agreed to improve the score for that question over the coming months.
+  - An **Action** agreed to improve the score for that question over the coming months.
 
-  - Use the **Notes** column to indicate further information that you think is valuable for the coordinating team to know about.
+  - Use the **Notes** column to indicate further information that you think is valuable for the coordinating team to know about.
 
-  - Make sure to complete to the **Date/Name/Facilitator** details 
+  - Make sure to complete to the **Date/Name/Facilitator** details 
 
-  - For in-person sessions, take a photo of each completed sheet and send to the person coordinating the assessments
+  - For in-person sessions, take a photo of each completed sheet and send to the person coordinating the assessments
 
-  -  Get team members to rate the assessment session itself in terms of: **Value**, **Execution** (sad, meh, happy faces)
+  -  Get team members to rate the assessment session itself in terms of: **Value**, **Execution** (sad, meh, happy faces)
 
 ### Viral facilitation
 
@@ -178,4 +178,3 @@ After teams have each run an assessment session and sent their results, the coor
 * Is there an aspect of the Platform that needs improving so teams can go faster?
 
 Do not attempt to rank or compare teams directly. Instead, use the signals from the teams to understand the organisational dynamics better and then prioritise organisation-wide improvements.
-
